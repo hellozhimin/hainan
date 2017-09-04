@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="gbk"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<frame_posters>
+    <poster code="recomm_images0" desc="首页推荐位置0"/>
+    <poster code="recomm_images1" desc="首页推荐位置1"/>
+    <poster code="recomm_images2" desc="首页推荐位置2"/>
+    <poster code="recomm_images3" desc="首页推荐位置3"/>
+    <poster code="recomm_images4" desc="首页推荐位置4"/>
+    <poster code="recomm_images5" desc="首页推荐位置5"/>
+    <poster code="recomm_images6" desc="首页推荐位置6"/>
+    <poster code="recomm_images7" desc="首页推荐位置7"/>
+    <poster code="recomm_images8" desc="首页推荐位置8"/>
+    <poster code="recomm_images9" desc="首页推荐位置9"/>
+    <poster code="recomm_images10" desc="首页推荐位置10"/>
+    <poster code="recomm_images11" desc="首页推荐位置11"/>
+    <poster code="recomm_images12" desc="首页推荐位置12"/>
+    <poster code="recomm_images13" desc="首页推荐位置13"/>
+    <poster code="recomm_images14" desc="首页推荐位置14"/>
+    <poster code="recomm_images15" desc="首页推荐位置15"/>
+    <poster code="recomm_images16" desc="首页推荐位置16"/>
+
+    <poster code="channel_images0" desc="首页直播位置0"/>
+    <poster code="channel_images1" desc="首页直播位置1"/>
+    <poster code="channel_images2" desc="首页直播位置2"/>
+    <poster code="channel_images3" desc="首页直播位置3"/>
+    <poster code="channel_images4" desc="首页直播位置4"/>
+    <poster code="channel_images5" desc="首页直播位置5"/>
+    <poster code="channel_images6" desc="首页直播位置6"/>
+    <poster code="channel_images7" desc="首页直播位置7"/>
+    <poster code="channel_images8" desc="首页直播位置8"/>
+    <poster code="channel_images9" desc="首页直播位置9"/>
+    <poster code="channel_images10" desc="首页直播位置10"/>
+    <poster code="channel_images11" desc="首页直播位置11"/>
+
+    <poster code="vod_images0" desc="首页点播位置0"/>
+    <poster code="vod_images1" desc="首页点播位置1"/>
+    <poster code="vod_images2" desc="首页点播位置2"/>
+    <poster code="vod_images3" desc="首页点播位置3"/>
+    <poster code="vod_images4" desc="首页点播位置4"/>
+    <poster code="vod_images5" desc="首页点播位置5"/>
+    <poster code="vod_images6" desc="首页点播位置6"/>
+    <poster code="vod_images7" desc="首页点播位置7"/>
+    <poster code="vod_images8" desc="首页点播位置8"/>
+    <poster code="vod_images9" desc="首页点播位置9"/>
+    <poster code="vod_images10" desc="首页点播位置10"/>
+    <poster code="vod_images11" desc="首页点播位置11"/>
+    <poster code="vod_images12" desc="首页点播位置12"/>
+
+    <poster code="zhuanti_images0" desc="首页专题位置0"/>
+    <poster code="zhuanti_images1" desc="首页专题位置1"/>
+    <poster code="zhuanti_images2" desc="首页专题位置2"/>
+    <poster code="zhuanti_images3" desc="首页专题位置3"/>
+    <poster code="zhuanti_images4" desc="首页专题位置4"/>
+    <poster code="zhuanti_images5" desc="首页专题位置5"/>
+    <poster code="zhuanti_images6" desc="首页专题位置6"/>
+    <poster code="zhuanti_images7" desc="首页专题位置7"/>
+
+    <poster code="my_images0" desc="首页我的位置0"/>
+    <poster code="my_images1" desc="首页我的位置1"/>
+    <poster code="my_images2" desc="首页我的位置2"/>
+    <poster code="my_images3" desc="首页我的位置3"/>
+    <poster code="my_images4" desc="首页我的位置4"/>
+    <poster code="my_images5" desc="首页我的位置5"/>
+    <poster code="my_images6" desc="首页我的位置6"/>
+    <poster code="my_images7" desc="首页我的位置7"/>
+    <poster code="my_images8" desc="首页我的位置8"/>
+    <poster code="my_images9" desc="首页我的位置9"/>
+
+    <poster code="jingpin_images0" desc="首页精品位置0"/>
+    <poster code="jingpin_images1" desc="首页精品位置1"/>
+    <poster code="jingpin_images2" desc="首页精品位置2"/>
+    <poster code="jingpin_images3" desc="首页精品位置3"/>
+    <poster code="jingpin_images4" desc="首页精品位置4"/>
+    <poster code="jingpin_images5" desc="首页精品位置5"/>
+    <poster code="jingpin_images6" desc="首页精品位置6"/>
+    <poster code="jingpin_images7" desc="首页精品位置7"/>
+    <poster code="jingpin_images8" desc="首页精品位置8"/>
+    <poster code="jingpin_images9" desc="首页精品位置9"/>
+    <poster code="jingpin_images10" desc="首页精品位置10"/>
+    <poster code="jingpin_images11" desc="首页精品位置11"/>
+    <poster code="jingpin_images12" desc="首页精品位置12"/>
+    <poster code="jingpin_images13" desc="首页精品位置13"/>
+    <poster code="jingpin_images14" desc="首页精品位置14"/>
+    <poster code="jingpin_images15" desc="首页精品位置15"/>
+    <!--这四个图片是为了对应1-4海报位的大图片-->
+    <poster code="jingpin_images16" desc="首页精品位置16"/>
+    <poster code="jingpin_images17" desc="首页精品位置17"/>
+    <poster code="jingpin_images18" desc="首页精品位置18"/>
+    <poster code="jingpin_images19" desc="首页精品位置19"/>
+
+    <poster code="bendi_images0" desc="首页本地位置0"/>
+    <poster code="bendi_images1" desc="首页本地位置1"/>
+    <poster code="bendi_images2" desc="首页本地位置2"/>
+    <poster code="bendi_images3" desc="首页本地位置3"/>
+    <poster code="bendi_images4" desc="首页本地位置4"/>
+    <poster code="bendi_images5" desc="首页本地位置5"/>
+    <poster code="bendi_images6" desc="首页本地位置6"/>
+    <poster code="bendi_images7" desc="首页本地位置7"/>
+    <poster code="bendi_images8" desc="首页本地位置8"/>
+    <poster code="bendi_images9" desc="首页本地位置9"/>
+    <poster code="bendi_images10" desc="首页本地位置10"/>
+    <poster code="bendi_images11" desc="首页本地位置11"/>
+    <poster code="bendi_images12" desc="首页本地位置12"/>
+    <poster code="bendi_images13" desc="首页本地位置13"/>
+    <poster code="bendi_images14" desc="首页本地位置14"/>
+
+    <poster code="yingyong_images0" desc="首页应用位置0"/>
+    <poster code="yingyong_images1" desc="首页应用位置1"/>
+    <poster code="yingyong_images2" desc="首页应用位置2"/>
+    <poster code="yingyong_images3" desc="首页应用位置3"/>
+    <poster code="yingyong_images4" desc="首页应用位置4"/>
+    <poster code="yingyong_images5" desc="首页应用位置5"/>
+    <poster code="yingyong_images6" desc="首页应用位置6"/>
+    <poster code="yingyong_images7" desc="首页应用位置7"/>
+    <poster code="yingyong_images8" desc="首页应用位置8"/>
+    <poster code="yingyong_images9" desc="首页应用位置9"/>
+
+    <poster code="zhuanti0_images0" desc="影视专题0"/>
+    <poster code="zhuanti0_images1" desc="影视专题1"/>
+    <poster code="zhuanti0_images2" desc="影视专题2"/>
+    <poster code="zhuanti0_images3" desc="影视专题3"/>
+    <poster code="zhuanti0_images4" desc="影视专题4"/>
+    <poster code="zhuanti0_images5" desc="影视专题5"/>
+    <poster code="zhuanti0_images6" desc="影视专题6"/>
+    <poster code="zhuanti0_images7" desc="影视专题7"/>
+    <poster code="zhuanti0_images8" desc="影视专题8"/>
+    <poster code="zhuanti0_images9" desc="影视专题9"/>
+
+    <poster code="zhuanti1_images0" desc="视频专题0"/>
+    <poster code="zhuanti1_images1" desc="视频专题1"/>
+    <poster code="zhuanti1_images2" desc="视频专题2"/>
+    <poster code="zhuanti1_images3" desc="视频专题3"/>
+    <poster code="zhuanti1_images4" desc="视频专题4"/>
+    <poster code="zhuanti1_images5" desc="视频专题5"/>
+    <poster code="zhuanti1_images6" desc="视频专题6"/>
+    <poster code="zhuanti1_images7" desc="视频专题7"/>
+    <poster code="zhuanti1_images8" desc="视频专题8"/>
+    <poster code="zhuanti1_images9" desc="视频专题9"/>
+
+    <poster code="zhuanti2_images0" desc="全部专题0"/>
+    <poster code="zhuanti2_images1" desc="全部专题1"/>
+    <poster code="zhuanti2_images2" desc="全部专题2"/>
+    <poster code="zhuanti2_images3" desc="全部专题3"/>
+    <poster code="zhuanti2_images4" desc="全部专题4"/>
+    <poster code="zhuanti2_images5" desc="全部专题5"/>
+    <poster code="zhuanti2_images6" desc="全部专题6"/>
+    <poster code="zhuanti2_images7" desc="全部专题7"/>
+    <poster code="zhuanti2_images8" desc="全部专题8"/>
+    <poster code="zhuanti2_images9" desc="全部专题9"/>
+
+    <poster code="vodImgUrl0" desc="搜索海报0"/>
+    <poster code="vodImgUrl1" desc="搜索海报1"/>
+    <poster code="vodImgUrl2" desc="搜索海报2"/>
+    <poster code="vodImgUrl3" desc="搜索海报3"/>
+    <poster code="vodImgUrl4" desc="搜索海报4"/>
+    <poster code="vodImgUrl5" desc="搜索海报5"/>
+    <poster code="vodImgUrl6" desc="搜索海报6"/>
+    <poster code="vodImgUrl7" desc="搜索海报7"/>
+    <poster code="vodImgUrl8" desc="搜索海报8"/>
+    <poster code="vodImgUrl9" desc="搜索海报9"/>
+    <poster code="vodImgUrl10" desc="搜索海报10"/>
+    <poster code="vodImgUrl11" desc="搜索海报11"/>
+    <poster code="vodImgUrl12" desc="搜索海报12"/>
+    <poster code="vodImgUrl13" desc="搜索海报13"/>
+	
+    <poster code="zhuantibg1" desc="视频专题背景图片"/>
+    <poster code="zhuantibg0" desc="影视专题背景图片"/>
+	
+	
+    <poster code="tiyu0img" desc="体育页面海报0海报"/>
+    <poster code="tiyu0title" desc="体育页面海报0标题海报"/>
+    <poster code="tiyu0dy" desc="体育页面海报0倒影海报"/>
+    <poster code="tiyu1img" desc="体育页面海报1海报"/>
+    <poster code="tiyu1title" desc="体育页面海报1标题海报"/>
+    <poster code="tiyu1dy" desc="体育页面海报1倒影海报"/>
+    <poster code="tiyu2img" desc="体育页面海报2海报"/>
+    <poster code="tiyu2title" desc="体育页面海报2标题海报"/>
+    <poster code="tiyu2dy" desc="体育页面海报2倒影海报"/>
+    <poster code="tiyu2dytitle" desc="体育页面海报2倒影标题海报"/>
+    <poster code="tiyu3img" desc="体育页面海报3海报"/>
+    <poster code="tiyu4img" desc="体育页面海报4海报"/>
+    <poster code="tiyu5img" desc="体育页面海报5海报"/>
+    <poster code="tiyu5dy" desc="体育页面海报5倒影海报"/>
+	
+	<poster code="European_images0" desc="欧洲杯首页推荐1海报"/>
+    <poster code="European_images1" desc="欧洲杯首页推荐2海报"/>
+
+</frame_posters>

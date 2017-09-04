@@ -1,0 +1,136 @@
+<!--音量控制-->
+<div id="volume_bar" style="position: absolute;visibility:hidden;top: 530px;left: 25px; width: 640px; height: 69px;color: #FFFFFF;background: url(images/playcontrol/bg-seek.png); z-index: 99;">
+    <div id="volume_start" style="position: absolute;top: 23px;left: 30px;width: 25px;height: 21px;background: url(images/playcontrol/vodVolume_Start.gif);"></div>
+    <div id="volume_num" style="position: absolute;top: 25px;left: 509px;width: 58px;height: 19px;color: #FFFFFF;font-size: 20px;"></div>
+    <div class="volume_barBg" style="position: absolute;top: 30px;left: 60px;width: 441px;height: 6px;background: url(images/playcontrol/vodVolume_Bg.gif);"></div>
+    <div id="volume_play" style=" position: absolute;top: 30px;left: 60px;width: 1px;height: 6px;background: url(images/playcontrol/vodMini_timeCoBox.gif);"></div>
+    <!--div id="volume_right" style=" position: absolute;top: 26px;left: 618px;width: 16px;height: 17px;background: url(images/playcontrol/vodVolume_Right.gif);"></div>
+    <div id="volume_text" style="position: absolute;top: 23px;left: 565px;width: 46px;height: 24px;text-align: center;font-size: 20px;">声道</div>
+    <div id="volume_left" style="position: absolute;top: 26px;left: 546px;width: 16px;height: 17px;background: url(images/playcontrol/vodVolume_Left.gif);"></div-->
+</div>
+<script type="text/javascript">
+    var volumeTimeout = -1; //音量条延时反回值
+	
+    //静音键
+    function keyMute() {
+        //0: 设置为有声 (默认值) 1: 设置为静音
+        var muteFlag = commonPage.mp.getMuteFlag();
+        if (muteFlag == 0) {
+            commonPage.mp.setMuteFlag(1);
+        }
+        else {
+            commonPage.mp.setMuteFlag(0);
+        }
+        showVolumeBar(Math.round(commonPage.mp.getVolume() / 5));
+    }
+
+    //显示音量条div
+
+    function showVolumeDiv() {
+        showDiv("volume_bar");
+        clearTimeout(volumeTimeout);
+        volumeTimeout = setTimeout("hiddenDiv('volume_bar')", 2000); //6秒后隐藏音量条
+    }
+
+    //显示音量条
+    function showVolumeBar(volume) {
+        showVolumeDiv();
+		
+        //var temp = top.Util.addZero(volume, 2);
+		var temp = volume;
+        $("volume_num").innerText = temp + "/20";
+        $("volume_play").style.width = parseInt((volume * 1) / 20 * 441) + 1 + "px";
+        $("volume_start").style.background = commonPage.mp.getMuteFlag() == 1 ? "url(images/playcontrol/vodVolume_Stop.gif)" : "url(images/playcontrol/vodVolume_Start.gif)";
+
+/*        var audio = commonPage.mp.getCurrentAudioChannel() * 1;
+        switch (audio) {
+            case 0:
+                $("volume_left").style.background = "images/playcontrol/vodVolume_Left1.gif";
+                $("volume_right").style.background = "images/playcontrol/vodVolume_Right.gif";
+                $("volume_text").innerText = "左";
+                break;
+            case 1:
+                $("volume_left").style.background = "images/playcontrol/vodVolume_Left.gif";
+                $("volume_right").style.background = "images/playcontrol/vodVolume_Right1.gif";
+                $("volume_text").innerText = "右";
+                break;
+            case 2:
+                $("volume_left").style.background = "images/playcontrol/vodVolume_Left1.gif";
+                $("volume_right").style.background = "images/playcontrol/vodVolume_Right1.gif";
+                $("volume_text").innerText = "立体";
+                break;
+            default:
+                break;
+        }*/
+    }
+
+    ///声道键
+
+    function keyTrack() {
+        commonPage.mp.switchAudioChannel();
+        showVolumeBar(Math.round(commonPage.mp.getVolume() / 5));
+    }
+
+    //改变音量
+
+    function changeVolume(num) {
+        var volume = commonPage.mp.getVolume();
+        volume = volume + num * 1;
+        if (volume > 100) {
+            volume = 100;
+        }
+        if (volume < 0) {
+            volume = 0;
+        }
+        commonPage.mp.setVolume(volume);
+        commonPage.mp.setMuteFlag(0);
+        showVolumeBar(Math.round(volume / 5));
+    }
+
+    //音量加
+
+    function keyVolUp() {
+//		document.getElementById("page_number").innerHTML="keyVolUp";
+//        if (checkPageStatus()) {
+//            return;
+//        }
+		
+        changeVolume(5);
+    }
+
+    //音量减
+
+    function keyVolDown() {
+//		document.getElementById("page_number").innerHTML="keyVolDown";
+//        if (checkPageStatus()) {
+//            return;
+//        }
+        changeVolume(-5);
+    }
+	
+    //隐藏某个div
+
+    function hiddenDiv(divName) {
+        if (checkDivIsShow(divName)) {
+            $(divName).style.visibility = "hidden";
+        }
+    }
+
+    //显示某个div
+
+    function showDiv(divName) {
+        if (!checkDivIsShow(divName)) {
+            $(divName).style.visibility = "visible";
+        }
+    }
+	
+	function checkDivIsShow(divName){
+		var _isShow = document.getElementById(divName).style.visibility;
+		if(_isShow == "visible"){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+</script>
